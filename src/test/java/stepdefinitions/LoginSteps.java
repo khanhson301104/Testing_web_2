@@ -61,13 +61,5 @@ public class LoginSteps {
 
     @After
     public void tearDown() {
-        // Instead of closing the browser, optionally clear cookies or navigate back to the login page
-        // to reset the state for the next scenario
-//        driver.manage().deleteAllCookies(); // Clears cookies to reset session
-//        driver.get("https://login-page-lilac-five.vercel.app/"); // Navigate back to the login page
-        // Comment out or remove driver.quit() to keep the browser open
-        // if (driver != null) {
-        //     driver.quit();
-        // }
     }
 }
